@@ -98,7 +98,7 @@ for ($i=0; $i < 32; $i++)
 				<legend class="position">Welcome to the CvSEA Installer!</legend>
 				<table cellspacing="2" cellpadding="2" width="100%">
 					<tr>
-						<td><p>Halalan is an open-source voting system designed for student elections. It aims to automate the manual processes of elections such as counting, archiving, and voting. It is designed to be easy-to-use and secure.</p><p>Halalan is now installed!  Copy the election settings below and save to system/application/config as halalan.php.</p></td>
+						<td><p>CvSEA (CvSU Student Election App) is an open source app for student elections in CvSU (Cavite State University). It is based from Halalan, the open source voting system being developed and maintained by the UP Linux Users' Group (UnPLUG). It aims to automate the manual processes of elections such as counting, archiving, and voting. It is designed to be easy-to-use and secure.</p><p>CvSEA is now installed!  Copy the election settings below and save to system/application/config as cvsea.php.</p></td>
 					</tr>
 				</table>
 			</fieldset>
