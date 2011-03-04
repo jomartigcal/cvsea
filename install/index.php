@@ -231,8 +231,7 @@ else
 		<div class="clear"></div>
 	</div>
 	<div id="footer">
-		<br />
-		&copy; University of the Philippines Linux Users' Group (UnPLUG)
+		<br /><?php include("footer.php") ?>
 	</div>
 </div>
 </body>
