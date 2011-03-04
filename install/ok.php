@@ -162,7 +162,7 @@ $config['encryption_key'] = "<?php echo $encryption_key; ?>";
 		<div class="clear"></div>
 	</div>
 	<div id="footer">
-		&copy; University of the Philippines Linux Users' Group (UnPLUG)
+		<?php include("footer.php") ?>
 	</div>
 </div>
 </body>
