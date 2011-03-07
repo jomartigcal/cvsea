@@ -143,3 +143,8 @@ fieldset {
     text-align : left;
     margin-bottom: 1.2em;
   }
+
+p {
+    text-align:justify;
+    text-indent:2em;
+  }

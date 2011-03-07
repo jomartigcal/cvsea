@@ -79,7 +79,7 @@ $autoload['plugin'] = array();
 |
 */
 
-$autoload['config'] = array('config', 'halalan');
+$autoload['config'] = array('config', 'cvsea');
 
 
 /*

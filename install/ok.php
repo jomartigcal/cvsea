@@ -34,7 +34,7 @@ if (isset($_POST['captcha']) || isset($_POST['image_trail']))
 {
 	if (!extension_loaded('gd') || !function_exists('gd_info'))
 	{
-		echo "The PHP installation doesn't seem to have a GD extension.  Please install the GD library and install Halalan again.";
+		echo "The PHP installation doesn't seem to have a GD extension.  Please install the GD library and install CvSEA again.";
 		exit;
 	}
 }
@@ -83,7 +83,7 @@ for ($i=0; $i < 32; $i++)
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-  <title>Halalan - Install</title>
+  <title>CvSEA - Install</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
 </head>
@@ -95,10 +95,10 @@ for ($i=0; $i < 32; $i++)
 	<div class="body">
 		<div class="center_body">
 			<fieldset>
-				<legend class="position">Welcome to the Halalan Installer!</legend>
+				<legend class="position">Welcome to the CvSEA Installer!</legend>
 				<table cellspacing="2" cellpadding="2" width="100%">
 					<tr>
-						<td><p>Halalan is an open-source voting system designed for student elections. It aims to automate the manual processes of elections such as counting, archiving, and voting. It is designed to be easy-to-use and secure.</p><p>Halalan is now installed!  Copy the election settings below and save to system/application/config as halalan.php.</p></td>
+						<td><p>CvSEA (CvSU Student Election App) is an open source app for student elections in CvSU (Cavite State University). It is based from Halalan, the open source voting system being developed and maintained by the UP Linux Users' Group (UnPLUG). It aims to automate the manual processes of elections such as counting, archiving, and voting. It is designed to be easy-to-use and secure.</p><p>CvSEA is now installed!  Copy the election settings below and save to system/application/config as cvsea.php.</p></td>
 					</tr>
 				</table>
 			</fieldset>
@@ -154,7 +154,7 @@ $config['encryption_key'] = "<?php echo $encryption_key; ?>";
 				<legend class="position"></legend>
 				<table cellspacing="2" cellpadding="2" width="100%">
 					<tr>
-						<td align="center">Copy the settings above and save to system/application/config as halalan.php</td>
+						<td align="center">Copy the settings above and save to system/application/config as cvsea.php</td>
 					</tr>
 				</table>
 			</fieldset>

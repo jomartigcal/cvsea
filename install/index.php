@@ -62,7 +62,7 @@ else
 			}
 			if ($test)
 			{
-				echo "Halalan is already installed.";
+				echo "CvSEA is already installed.";
 				exit;
 			}
 		}
@@ -75,7 +75,7 @@ else
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-  <title>Halalan - Install</title>
+  <title>CvSEA - Install</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
 </head>
@@ -109,10 +109,10 @@ else
 {
 ?>
 			<fieldset>
-				<legend class="position">Welcome to the Halalan Installer!</legend>
+				<legend class="position">Welcome to the CvSEA Installer!</legend>
 				<table cellspacing="2" cellpadding="2" width="100%">
 					<tr>
-						<td><p>Halalan is an open-source voting system designed for student elections. It aims to automate the manual processes of elections such as counting, archiving, and voting. It is designed to be easy-to-use and secure.</p><p>Please fill up the form below.  All fields are required.  Take note that <span style="color : red; ">changing the election settings after you have entered some data will break the system</span> so please review them carefully.</p></td>
+						<td><p>CvSEA (CvSU Student Election App) is an open source app for student elections in CvSU (Cavite State University). It is based from Halalan, the open source voting system being developed and maintained by the UP Linux Users' Group (UnPLUG). It aims to automate the manual processes of elections such as counting, archiving, and voting. It is designed to be easy-to-use and secure.</p><p>Please fill up the form below.  All fields are required.  Take note that <span style="color : red; ">changing the election settings after you have entered some data will break the system</span> so please review them carefully.</p></td>
 					</tr>
 				</table>
 			</fieldset>
