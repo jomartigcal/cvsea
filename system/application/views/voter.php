@@ -64,7 +64,7 @@
 	<div id="footer">
 		<div id="footer_bg">
 			<div id="footer_left">
-				<p>&copy; University of the Philippines Linux Users' Group (UnPLUG)</p>
+				<p><?php include("footer.php") ?></p>
 			</div>
 			<div id="footer_right">
 				<p>Powered by Halalan <?php echo HALALAN_VERSION; ?></p>

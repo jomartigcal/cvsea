@@ -50,7 +50,7 @@
 	<div id="footer">
 		<div id="footer_bg">
 			<div id="footer_left">
-				<p><a href="http://uplug.org">&copy; University of the Philippines Linux Users' Group (UnPLUG)</a></p>
+				<p><?php include("footer.php") ?></p>
 			</div>
 			<div id="footer_right">
 				<p><a href="http://halalan.uplug.org">Powered by Halalan <?php echo HALALAN_VERSION; ?></a></p>
