@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>Halalan - Administration - <?php echo $title; ?></title>
+	<title>CvSEA - Administration - <?php echo $title; ?></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<?php if (isset($meta) && !empty($meta)): ?>
 	<?php echo $meta; ?>
@@ -62,7 +62,7 @@
 	<div id="footer">
 		<div id="footer_bg">
 			<div id="footer_left">
-				<p>&copy; University of the Philippines Linux Users' Group (UnPLUG)</p>
+				<p><?php include("footer.php") ?></p>
 			</div>
 			<div id="footer_right">
 				<p>Powered by Halalan <?php echo HALALAN_VERSION; ?></p>
