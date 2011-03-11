@@ -1,1 +1,17 @@
 CvSEA (CvSU Student Election App) is an open source app for student elections in CvSU (Cavite State University). It is based from Halalan, the open source voting system being developed and maintained by the UP Linux Users' Group (UnPLUG).
+
+LICENSING:
+
+	This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+	This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>. 
+
+	Parts of this distribution consist of the following:
+		CodeIgniter http://www.codeigniter.com - CodeIgniter License Agreement
+		jQuery (and plugins) http://jquery.com - GNU General Public License
+		SHA-1 JavaScript implementation http://pajhome.org.uk/crypt/md5 - BSD License
+		Oxygen Icons http://www.oxygen-icons.org - GNU Library General Public License
+		Design derived from http://www.openwebdesign.org/design/4369/atrandafir582 - Public Domain
+		json2.js http://www.json.org/json2.js - Public Domain
