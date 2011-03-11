@@ -82,7 +82,7 @@ else
 <body>
 <div id="wrap">
 	<div id="header">
-		<img src="images/logo.png" alt="logo" />
+		<h1>CvSU Student Election App</h1><br />
 	</div>
 	<div class="body">
 		<div class="center_body">
