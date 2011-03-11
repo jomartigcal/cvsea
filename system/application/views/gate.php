@@ -15,7 +15,7 @@
 	<div id="header">
 		<div id="header_bg">
 			<div id="header_left">
-				<?php echo img(array('src'=>'public/images/logo_small.png', 'alt'=>'login logo')); ?>
+				<h1>CvSU Student Election App</h1><br>
 				<?php if ($login != 'results' && $login != 'statistics'): ?>
 				<span>login</span>
 				<?php endif; ?>

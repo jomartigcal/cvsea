@@ -27,12 +27,8 @@
 					$CI =& get_instance();
 					$special = $CI->config->item('halalan');
 				?>
-				<?php if (isset($special['v']) && $special['v']): ?>
-				<?php echo img(array('src'=>'public/images/logo_admin_v.png', 'alt'=>'Halalan Logo')); ?>
-				<?php else: ?>
-				<?php echo img(array('src'=>'public/images/logo_small.png', 'alt'=>'Halalan Logo')); ?>
+				<h1>CvSU Student Election App</h1><br>
 				<span>administration</span>
-				<?php endif; ?>
 <!--
 				<h1>
 					<?php echo anchor(site_url(), 'Halalan'); ?>
