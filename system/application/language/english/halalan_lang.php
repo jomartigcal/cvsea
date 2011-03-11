@@ -196,7 +196,7 @@ $lang['halalan_admin_edit_election_success'] = 'The election has been successful
 $lang['halalan_admin_options_election_success'] = 'The election options has been successfully changed.';
 
 // views/admin/home.php
-$lang['halalan_admin_home_left_label'] = 'Manage Halalan';
+$lang['halalan_admin_home_left_label'] = 'Manage CvSEA';
 $lang['halalan_admin_home_manage_question'] = 'What do you want to do?';
 $lang['halalan_admin_home_manage_candidates'] = 'Manage Candidates';
 $lang['halalan_admin_home_manage_elections'] = 'Manage Elections';
