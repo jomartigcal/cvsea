@@ -62,7 +62,7 @@ else
 			}
 			if ($test)
 			{
-				echo "CvSEA is already installed.";
+				header('Location:../index.php');
 				exit;
 			}
 		}
