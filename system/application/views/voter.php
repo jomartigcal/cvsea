@@ -25,7 +25,7 @@
 	<div id="header">
 		<div id="header_bg">
 			<div id="header_left">
-				<?php echo img(array('src'=>'public/images/logo_small.png', 'alt'=>'voter logo')); ?>
+				<h1>CvSU Student Election App</h1><br>
 				<span><?php echo isset($index) ? 'voter' : 'ballot'; ?></span>
 <!--
 				<h1>
