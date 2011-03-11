@@ -28,8 +28,8 @@
 			</div>
 		<?php if ($login == 'admin'): ?>
 			<div id="header_right">
-				<p>GO TO
-				<?php echo anchor('gate/voter', 'VOTER LOGIN'); ?>
+				<p>Go to
+				<?php echo anchor('gate/voter', 'Voter Login'); ?>
 				</p>
 			</div>
 		<?php endif; ?>
